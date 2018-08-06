@@ -17,3 +17,6 @@
 .header .toggle .closed{
 	transform:rotate(7deg);
 }
+.u-menu-horizontal>.u-menu-item, .u-menu-horizontal>.u-menu-submenu>.u-menu-submenu-title{
+	padding: 13px 20px;
+}

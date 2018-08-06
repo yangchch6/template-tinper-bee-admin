@@ -375,7 +375,7 @@ class UserManager extends Component {
                             <Icon type="uf-home"/>主页
                         </Breadcrumb.Item>
                         <Breadcrumb.Item>
-                            <Icon type="uf-users"/>用户中心
+                            <Icon type="uf-users"/>人员管理
                         </Breadcrumb.Item>
                     </Breadcrumb>
                 </Col>

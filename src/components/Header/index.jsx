@@ -48,7 +48,7 @@ class MyHeader extends Component {
 								<Icon type="comments" />
 							</NavItem>
 						    <Menu mode="horizontal" className="dropdown">
-						        <Menu.SubMenu title={<span>刘认华<Icon type="caret-down" /></span>}>
+						        <Menu.SubMenu title={<span>杨晨晨<Icon type="caret-down" /></span>}>
 						        	<Menu.Item key="setting:1">Option 1</Menu.Item>
 						            <Menu.Item key="setting:2">Option 2</Menu.Item>
 						            <Menu.Item key="setting:3">Option 3</Menu.Item>

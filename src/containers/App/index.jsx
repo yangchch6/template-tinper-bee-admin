@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {MyComponent} from '../../components';
 import {Route} from 'mirrorx'
-import Dashbroad from '../Dashbroad/index';
+import GroupManager from '../GroupManager';
 import UserManager from '../UserManager';
 import Reference from '../Reference';
 import DataTable from '../DataTable';
@@ -47,7 +47,7 @@ class App extends Component {
                 <div className={classnames("content",{"toggled": toggle})}>
                     <MyHeader toggle={ toggle } onToggle={ this.handleToggle } />
                     <Con fluid={true}>
-                        <Route exact path="/" component={ Dashbroad }/>
+                        <Route exact path="/" component={ GroupManager }/>
                         <Route path="/usermanager" component={ UserManager } />
                         <Route path="/reference" component={ Reference } />
                         <Route path="/datatable" component={ DataTable } />

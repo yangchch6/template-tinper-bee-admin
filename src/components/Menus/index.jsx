@@ -29,16 +29,16 @@ class Menus extends Component {
 				<Menu.Item key="1">
 					<Link to="/">
 						<Icon type="uf-9square-2" />
-                        {toggle ? "" : <span>仪表盘</span>}
+                        {toggle ? "" : <span>小组管理</span>}
 					</Link>
 				</Menu.Item>
 				<Menu.Item key="2">
 					<Link to="/usermanager">
 						<Icon type="uf-userset" />
-                        {toggle ? "" : <span>用户管理</span>}
+                        {toggle ? "" : <span>人员管理</span>}
 					</Link>
 				</Menu.Item>
-				<SubMenu key="sub2" title={<span><Icon type="uf-puzzle-o" />{toggle ? "" : <span>UI Element</span>}</span>}>
+				{/* <SubMenu key="sub2" title={<span><Icon type="uf-puzzle-o" />{toggle ? "" : <span>UI Element</span>}</span>}>
 					<Menu.Item key="7">
 						<Link to="/datatable">
 							DataTable 数据表格
@@ -49,13 +49,7 @@ class Menus extends Component {
 							Reference 参照示例
 						</Link>
 					</Menu.Item>
-					{/*<Menu.Item key="9">*/}
-						{/*<Link to="/editor">*/}
-							{/*Editor 文本编辑*/}
-						{/*</Link>*/}
-					{/*</Menu.Item>*/}
-					{/*<Menu.Item key="10">From 表单校验</Menu.Item>*/}
-				</SubMenu>
+				</SubMenu> */}
 		      </Menu>
 		)
 	}
