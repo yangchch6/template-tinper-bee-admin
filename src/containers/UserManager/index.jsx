@@ -42,7 +42,6 @@ class UserManager extends Component {
             edit: false,
             checkedAll: false,
             searchValue: '',
-
         };
         this.editId = 0;
         const self = this;
@@ -65,7 +64,7 @@ class UserManager extends Component {
             },
             {title: '姓名', dataIndex: 'name', key: 'name'},
             {
-                title: '花名', dataIndex: 'nickname', key: 'nickname'
+                title: '分组', dataIndex: 'nickname', key: 'nickname'
             },
             {title: '入职日期', dataIndex: 'date', key: 'date'},
             {
@@ -424,7 +423,7 @@ class UserManager extends Component {
                                     key="name"
                                 />
                                 <Column
-                                    title="花名"
+                                    title="分组"
                                     dataIndex="nickname"
                                     key="nickname"
                                 />
@@ -455,18 +454,7 @@ class UserManager extends Component {
                                 render={ this.renderControl }
                             />
                         </Table>
-                        <div className="text-center">
-                            <Pagination
-                                first
-                                last
-                                prev
-                                next
-                                boundaryLinks
-                                items={20}
-                                maxButtons={5}
-                                activePage={this.state.activePage}
-                                onSelect={this.handlePageSelect}/>
-                        </div>
+                        
 
                     </div>
                 </Col>

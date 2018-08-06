@@ -28,7 +28,7 @@ class Menus extends Component {
 		      >
 				<Menu.Item key="1">
 					<Link to="/">
-						<Icon type="uf-9square-2" />
+						<Icon type="uf uf-users" />
                         {toggle ? "" : <span>小组管理</span>}
 					</Link>
 				</Menu.Item>
